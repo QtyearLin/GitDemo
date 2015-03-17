@@ -1,0 +1,59 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+
+    <android.support.v4.view.ViewPager 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/viewpager"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+     />
+
+    <TextView 
+        android:id="@+id/left"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:gravity="center"
+        android:text="上一页"
+        />
+    
+     <TextView 
+        android:id="@+id/right"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+         android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="下一页"
+        />
+     
+      <TextView 
+        android:id="@+id/middle"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+         android:layout_alignParentBottom="true"
+         android:layout_centerHorizontal="true"
+         android:gravity="center"
+        android:text="1"
+        />
+       <TextView 
+        android:id="@+id/refresh"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:text="refresh"
+        />
+         <TextView 
+        android:id="@+id/allcontext"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:text="allFragmentcontext"
+        />
+</RelativeLayout>
